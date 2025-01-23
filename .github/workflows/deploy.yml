@@ -1,0 +1,31 @@
+name: Deploy JSON Resume to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "lts/*"
+      - name: Install resume-cli and custom theme
+        run: |
+          npm install -g resume-cli jsonresume-theme-ludoo
+      - name: Generate HTML resume
+        run: resume render --theme jsonresume-theme-ludoo -o public/index.html
+      - name: Remove col-sm-offset-1 class
+        run: |
+          sed -i 's/class="col-sm-offset-1/class="/g' public/index.html
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: public

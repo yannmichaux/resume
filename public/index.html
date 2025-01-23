@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Resume of Yann Michaux</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet"/>
+    <style type="text/css">
+    @charset "utf-8";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+
+body{
+  font-family: 'Open Sans', Arial, Tahoma, serif;
+  font-weight: 400;
+  color: #363636;
+  background: #334960;
+}
+blockquote {
+  font-size: 1em;
+}
+
+.container{
+  margin-top: 80px;
+  margin-bottom: 15px;
+  background: #fff;
+}
+
+#photo-header{
+  margin-top: -75px;
+}
+#photo{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 5px;
+  background: #334960;
+  display: inline-block;
+}
+#photo img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+#text-header h1{
+  margin: 0;
+  padding: 0;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+#text-header h1::first-line{
+  font-size: 1.5em;
+  font-weight: 800;
+  line-height: 1.5em;
+}
+#text-header h1 span{
+  color: #334960;
+  opacity: 0.7;
+}
+#text-header h1 sup{
+  opacity: 0.5;
+}
+#text-header:after{
+  width: 100%;
+  height: 3px;
+  border-bottom: 1px solid #ddd;
+  margin-top: 15px;
+  content: '';
+  display: block;
+}
+
+.box{
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+}
+.box h2{
+  color: #227c74;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#awards,
+#education{
+  margin-top: 20px;
+  margin-bottom: 0;
+  position: relative;
+  padding: 1em 0;
+  list-style: none;
+}
+#awards:before,
+#education:before {
+  width: 5px;
+  height: 100%;
+  position: absolute;
+  left: 35px;
+  top: 0;
+  content: ' ';
+  display: block;
+  background: #32475c;
+  background: -moz-linear-gradient(top,  #ffffff 0%, #32475c 7%, #32475c 89%, #ffffff 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(7%,#32475c), color-stop(89%,#32475c), color-stop(100%,#ffffff));
+  background: -webkit-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  background: -o-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  background: -ms-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  background: linear-gradient(to bottom,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
+}
+#awards li,
+#education li{
+  width: 100%;
+  z-index: 2;
+  position: relative;
+  float: left;
+}
+#awards .year,
+#education .year{
+  width: 14%;
+  background: #fff;
+  padding: 10px;
+  font-weight: 700;
+  display: inline-block;
+}
+#awards .description,
+#education .description{
+  width: 83%;
+  display: inline-block;
+  background: #eee;
+  margin-bottom: 10px;
+  position: relative;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+#awards .description:after,
+#education .description:after {
+  content: '';
+  position: absolute;
+  top: 15px;
+  right: 0;
+  left: -16px;
+  height: 0;
+  width: 0;
+  border: solid transparent;
+  border-right-color: #eee;
+  border-width: 8px;
+  pointer-events: none;
+}
+#awards .description h3,
+#education .description h3{
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+}
+#awards .description p,
+#education .description p{
+  margin-top: 5px;
+  padding: 0;
+}
+
+.job{
+  margin-bottom: 15px;
+}
+.job .details {
+  margin-left: 3%;
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #eee;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.job .where{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.job .year{
+  opacity: 0.7;
+}
+.job .profession{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.job .description{
+  line-height: 1.5em;
+}
+.job .highlights{
+  padding: 5px 0;
+  font-weight: bold;
+}
+.job .highlight-skills{
+  padding: 5px 0;
+}
+.job .job-details {
+  padding-left: 5%;
+  width: 100%;
+}
+.publication {
+  margin-bottom: 10px;
+}
+.publication .name{
+  font-size: 1em;
+  font-weight: bold;
+}
+.publication .year{
+    opacity: 0.7;
+}
+.publication p{
+  margin: 0;
+  padding-top: 10px;
+}
+
+.contact-item{
+  width: 100%;
+  float: left;
+}
+.contact-item .icon{
+  padding: 10px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  color: #32475c;
+  background: #eee;
+}
+.contact-item:last-child .icon{
+  border-bottom: none;
+}
+.contact-item .title{
+  width: 80%;
+  width: calc(100% - 55px);
+  font-weight: 700;
+  opacity: 0.9;
+}
+.contact-item .title.only{
+  margin-top: 10px;
+}
+.contact-item .description{
+  width: 80%;
+  width: calc(100% - 55px);
+  color: #334960;
+}
+
+.contact .translation{
+  padding-left: 5px;
+}
+
+.item-interests,
+.item-skills{
+  height: 30px;
+  color: #334960;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+.interest,
+.skill{
+  color: #fff;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  background: #32475c;
+  position: relative;
+  font-size: .85em;
+}
+.skill-level {
+  background-color: #227c74;
+  border-radius: 4px;
+  color: #fff;
+  padding: 1px 8px;
+  font-size: .75em;
+  position: absolute;
+  margin: 1px 10px;
+}
+
+#language-skills .skill{
+  margin: 10px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+    </style>
+    <style type="text/css" media="print">
+    body {
+  font-size: .95em;
+  -webkit-print-color-adjust: exact;
+}
+
+a[href]:after {
+  content: none !important;
+}
+
+#photo{
+  display: none;
+}
+
+.box {
+  margin-bottom: -10px;
+}
+
+blockquote,
+#education,
+#awards,
+.contact-item,
+.publication,
+.skills,
+.interests {
+  page-break-inside: avoid;
+}
+
+.col-sm-5{
+  width: 40%;
+  padding: 0 15px;
+}
+
+.col-sm-7{
+  width: 60%;
+  padding: 0 15px;
+}
+
+.skills .col-sm-offset-1,
+.interests .col-sm-offset-1{
+  margin-top: -10px;
+  margin-bottom: 5px;
+}
+
+#education {
+  margin: 0;
+  margin-bottom: -20px;
+}
+#awards:before,
+#education:before {
+  background: none;
+}
+
+#awards .description,
+#education .description,
+.job .details {
+  border: 1px solid #eee;
+}
+.publication,
+.publication .panel-heading,
+.publication .name{
+  margin: 0;
+  padding: 0 5px;
+  border: none;
+}
+.publication .panel-body {
+  padding: 0 10px;
+  margin: 0;
+}
+
+.badge {
+  margin: 0;
+}
+
+.list-group-item{
+  border: none;
+  margin: 0;
+  padding: 5px 15px;
+}
+.list-group-item:after{
+  content: '';
+  position: absolute;
+  top: 8px;
+  right: 0;
+  left: -1px;
+  height: 0;
+  width: 0;
+  border: solid transparent;
+  border-right-color: #999;
+  border-width: 4px;
+  pointer-events: none;
+ }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div id="photo-header" class="text-center">
+            <!-- PHOTO (AVATAR) -->
+            <div id="photo">
+              <img src="&#x2F;&#x2F;www.gravatar.com&#x2F;avatar&#x2F;d0d8c34d7ff5887de541d0a6ffc54b45?s&#x3D;200&amp;r&#x3D;pg&amp;d&#x3D;mm" alt="avatar"/>
+            </div>
+            <div id="text-header" >
+              <h1>Yann Michaux<br/><span>Fullstack Software Developer</span></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-7">
+          <!-- ABOUT ME -->
+          <div class="box me">
+            <h2><i class="fas fa-user ico"></i> About</h2>
+            <p>Experienced Fullstack Software Developer specializing in web and mobile development, Linux administration, CI/CD automation, and technical project management. Skilled at delivering secure and high-performing solutions with a strong focus on user experience.</p>
+          </div>
+          <!-- WORK EXPERIENCE -->
+          <div class="box work">
+            <h2><i class= "fas fa-suitcase ico"></i> Work Experience</h2>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      Two-i
+                      <div class="pull-right">France</div>
+                    </div>
+                    
+                    <div class="address">
+                      <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;company&#x2F;two-i" target= "_blank"><i class="fas fa-globe ico"></i> https:&#x2F;&#x2F;www.linkedin.com&#x2F;company&#x2F;two-i</a>
+                    </div>
+                    <div class="year">September 2019  – Present <div class="pull-right">5 years, 4 months</div></div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Lead Fullstack Software Developer</div>
+                    <div class="description">
+                      Development of video analysis solutions based on artificial intelligence for secure environments, client support, and technical team management.
+<!--                      <div class="highlights">Highlights</div>-->
+                      <div class="highlight-skills">
+                        <span class="skill badge">Node.JS</span>
+                        <span class="skill badge">Vue.JS</span>
+                        <span class="skill badge">PostgreSQL</span>
+                        <span class="skill badge">Nest.JS</span>
+                        <span class="skill badge">Ionic</span>
+                        <span class="skill badge">Ubuntu Server</span>
+                        <span class="skill badge">Cloud</span>
+                        <span class="skill badge">Docker</span>
+                        <span class="skill badge">Gitlab CI</span>
+                        <span class="skill badge">Github Actions</span>
+                        <span class="skill badge">Ansible</span>
+                        <span class="skill badge">VMWare</span>
+                        <span class="skill badge">Proxmox</span>
+                        <span class="skill badge">Google Cloud Platform</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      Arendt Services – GROUPE ARENDT
+                      <div class="pull-right">Luxembourg</div>
+                    </div>
+                    
+                    <div class="address">
+                      <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;company&#x2F;arendt-medernach" target= "_blank"><i class="fas fa-globe ico"></i> https:&#x2F;&#x2F;www.linkedin.com&#x2F;company&#x2F;arendt-medernach</a>
+                    </div>
+                    <div class="year">July 2019  – September 2019 <div class="pull-right">2 months</div></div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Intern Developer</div>
+                    <div class="description">
+                      Design and development of an internal tool for IT report generation, integrated with LDAP for user management.
+<!--                      <div class="highlights">Highlights</div>-->
+                      <div class="highlight-skills">
+                        <span class="skill badge">Angular</span>
+                        <span class="skill badge">PHP</span>
+                        <span class="skill badge">LDAP</span>
+                        <span class="skill badge">MariaDB</span>
+                        <span class="skill badge">Trello</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      Just-Mining (now Meria)
+                      <div class="pull-right">France</div>
+                    </div>
+                    
+                    <div class="address">
+                      <a href="https:&#x2F;&#x2F;www.meria.com" target= "_blank"><i class="fas fa-globe ico"></i> https:&#x2F;&#x2F;www.meria.com</a>
+                    </div>
+                    <div class="year">July 2018  – August 2018 <div class="pull-right">1 month</div></div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Fullstack Software Developer</div>
+                    <div class="description">
+                      Redesign of the client portal to improve user experience and optimize backend performance.
+<!--                      <div class="highlights">Highlights</div>-->
+                      <div class="highlight-skills">
+                        <span class="skill badge">HTML</span>
+                        <span class="skill badge">CSS</span>
+                        <span class="skill badge">JavaScript</span>
+                        <span class="skill badge">jQuery</span>
+                        <span class="skill badge">Bootstrap</span>
+                        <span class="skill badge">PHP</span>
+                        <span class="skill badge">Laravel</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-5">
+          <!-- CONTACT -->
+          <div class="box contact clearfix">
+            <h2><i class="fas fa-address-book ico"></i> Contact</h2>
+            <div class="contact-item location">
+              <div class="icon pull-left text-center"><span class="fas fa-map-marker fa-fw"></span></div>
+              <div class="title pull-right">Metz</div>
+              <div class="title  pull-right"> FR</div>
+            </div>
+            <div class="contact-item email">
+              <div class="icon pull-left text-center"><span class="fas fa-envelope fa-fw"></span></div>
+              <div class="title only pull-right"><a href="mailto:contact@yannmcx.dev" target="_blank">contact@yannmcx.dev</a></div>
+            </div>
+            <div class="contact-item profile">
+              <div class="icon pull-left text-center"><span class="fab fa-linkedin fa-fw"></span></div>
+              <div class="title pull-right">LinkedIn</div>
+              <div class="description pull-right"><a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;yann-michaux&#x2F;" target="_blank">yann-michaux</a></div>
+            </div>
+            <div class="contact-item profile">
+              <div class="icon pull-left text-center"><span class="fab fa-github fa-fw"></span></div>
+              <div class="title pull-right">GitHub</div>
+              <div class="description pull-right"><a href="https:&#x2F;&#x2F;github.com&#x2F;yannmichaux" target="_blank">yannmichaux</a></div>
+            </div>
+
+          </div>
+          <!-- EDUCATION -->
+          <div class="box education">
+            <h2><i class="fas fa-university ico"></i> Education</h2>
+            <ul id="education" class="clearfix">
+              <li>
+                <div class="year pull-left">2018 2019</div>
+                <div class="description pull-right">
+                  <h3>Institut Français des Affaires</h3>
+                  <div class="where"></div>
+                  <p><i class= "fas fa-graduation-cap ico"></i> Higher National Diploma (HND)</p>
+                  <p>Web &amp; Mobile Development</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- SKILLS -->
+          <div class="box skills">
+            <h2><i class="fas fa-tasks ico"></i> skills</h2>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Development
+                  <span class="skill-level">Expert</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Web</span>
+                <span class= "skill badge">Mobile</span>
+                <span class= "skill badge">Desktop</span>
+                <span class= "skill badge">JavaScript</span>
+                <span class= "skill badge">TypeScript</span>
+                <span class= "skill badge">PHP</span>
+                <span class= "skill badge">Vue.js</span>
+                <span class= "skill badge">Angular</span>
+                <span class= "skill badge">Laravel</span>
+                <span class= "skill badge">Ionic</span>
+                <span class= "skill badge">Capacitor</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  System Administration
+                  <span class="skill-level">Confirmed</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Linux (Debian, Ubuntu Server, CentOS)</span>
+                <span class= "skill badge">Windows Server</span>
+                <span class= "skill badge">VMWare</span>
+                <span class= "skill badge">Proxmox</span>
+                <span class= "skill badge">Docker</span>
+                <span class= "skill badge">GitLab CI</span>
+                <span class= "skill badge">GitHub Actions</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Networking and Security
+                  <span class="skill-level">Confirmed</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">pfSense</span>
+                <span class= "skill badge">OPNSense</span>
+                <span class= "skill badge">OpenVPN</span>
+                <span class= "skill badge">Wireguard</span>
+                <span class= "skill badge">LDAP</span>
+                <span class= "skill badge">Zabbix</span>
+                <span class= "skill badge">Grafana</span>
+                <span class= "skill badge">Managed VoIP</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Databases
+                  
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">PostgreSQL</span>
+                <span class= "skill badge">MariaDB</span>
+                <span class= "skill badge">MongoDB</span>
+                <span class= "skill badge">MySQL</span>
+                <span class= "skill badge">SQL Server</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Management Tools
+                  
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Notion</span>
+                <span class= "skill badge">Monday</span>
+                <span class= "skill badge">Trello</span>
+                <span class= "skill badge">Ansible</span>
+              </div>
+            </div>
+          </div>
+          <!-- LANGUAGES -->
+          <div class="box languages">
+            <h2><i class="fas fa-language ico"></i> Languages</h2>
+            <ul class="list-group">
+              <li class=" list-group-item">French<span class="skill badge pull-right">Native</span></li>
+              <li class=" list-group-item">English<span class="skill badge pull-right">Fluent</span></li>
+            </ul>
+          </div>
+          <!-- HOBBIES -->
+          <div class="box hobbies">
+            <h2><i class="fas fa-heart ico"></i> Interests</h2>
+            <div class="interests clearfix">
+              <div class="item-interests">
+                  Music
+              </div>
+              <div class="col-sm-12 clearfix">
+                <span class= "interest badge">Electro/Pop</span>
+                <span class= "interest badge">Variety</span>
+                <span class= "interest badge">Metal</span>
+              </div>
+            </div>
+            <div class="interests clearfix">
+              <div class="item-interests">
+                  Cinema
+              </div>
+              <div class="col-sm-12 clearfix">
+                <span class= "interest badge">Marvel</span>
+                <span class= "interest badge">Horror</span>
+                <span class= "interest badge">Action</span>
+              </div>
+            </div>
+            <div class="interests clearfix">
+              <div class="item-interests">
+                  Creative Hobbies
+              </div>
+              <div class="col-sm-12 clearfix">
+                <span class= "interest badge">3D Printing</span>
+                <span class= "interest badge">Home Automation</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

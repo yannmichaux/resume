@@ -1,0 +1,167 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Yann Michaux",
+    "label": "Fullstack Software Developer",
+    "email": "contact@yannmcx.dev",
+    "summary": "Experienced Fullstack Software Developer specializing in web and mobile development, Linux administration, CI/CD automation, and technical project management. Skilled at delivering secure and high-performing solutions with a strong focus on user experience.",
+    "location": {
+      "address": "Metz",
+      "countryCode": "FR"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "yann-michaux",
+        "url": "https://www.linkedin.com/in/yann-michaux/"
+      },
+      {
+        "network": "GitHub",
+        "username": "yannmichaux",
+        "url": "https://github.com/yannmichaux"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Two-i",
+      "company": "Two-i",
+      "position": "Lead Fullstack Software Developer",
+      "startDate": "2019-09",
+      "summary": "Development of video analysis solutions based on artificial intelligence for secure environments, client support, and technical team management.",
+      "highlights": [
+        "Node.JS",
+        "Vue.JS",
+        "PostgreSQL",
+        "Nest.JS",
+        "Ionic",
+        "Ubuntu Server",
+        "Cloud",
+        "Docker",
+        "Gitlab CI",
+        "Github Actions",
+        "Ansible",
+        "VMWare",
+        "Proxmox",
+        "Google Cloud Platform"
+      ],
+      "location": "France",
+      "url": "https://www.linkedin.com/company/two-i"
+    },
+    {
+      "name": "Arendt Services – GROUPE ARENDT",
+      "position": "Intern Developer",
+      "startDate": "2019-07",
+      "endDate": "2019-09",
+      "summary": "Design and development of an internal tool for IT report generation, integrated with LDAP for user management.",
+      "highlights": ["Angular", "PHP", "LDAP", "MariaDB", "Trello"],
+      "location": "Luxembourg",
+      "url": "https://www.linkedin.com/company/arendt-medernach"
+    },
+    {
+      "name": "Just-Mining (now Meria)",
+      "position": "Fullstack Software Developer",
+      "startDate": "2018-07",
+      "endDate": "2018-08",
+      "summary": "Redesign of the client portal to improve user experience and optimize backend performance.",
+      "highlights": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "jQuery",
+        "Bootstrap",
+        "PHP",
+        "Laravel"
+      ],
+      "location": "France",
+      "url": "https://www.meria.com"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Institut Français des Affaires",
+      "area": "Web & Mobile Development",
+      "studyType": "Higher National Diploma (HND)",
+      "startDate": "2018",
+      "endDate": "2019"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Development",
+      "level": "Expert",
+      "keywords": [
+        "Web",
+        "Mobile",
+        "Desktop",
+        "JavaScript",
+        "TypeScript",
+        "PHP",
+        "Vue.js",
+        "Angular",
+        "Laravel",
+        "Ionic",
+        "Capacitor"
+      ]
+    },
+    {
+      "name": "System Administration",
+      "level": "Confirmed",
+      "keywords": [
+        "Linux (Debian, Ubuntu Server, CentOS)",
+        "Windows Server",
+        "VMWare",
+        "Proxmox",
+        "Docker",
+        "GitLab CI",
+        "GitHub Actions"
+      ]
+    },
+    {
+      "name": "Networking and Security",
+      "level": "Confirmed",
+      "keywords": [
+        "pfSense",
+        "OPNSense",
+        "OpenVPN",
+        "Wireguard",
+        "LDAP",
+        "Zabbix",
+        "Grafana",
+        "Managed VoIP"
+      ]
+    },
+    {
+      "name": "Databases",
+      "keywords": ["PostgreSQL", "MariaDB", "MongoDB", "MySQL", "SQL Server"]
+    },
+    {
+      "name": "Management Tools",
+      "keywords": ["Notion", "Monday", "Trello", "Ansible"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "French",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Music",
+      "keywords": ["Electro/Pop", "Variety", "Metal"]
+    },
+    {
+      "name": "Cinema",
+      "keywords": ["Marvel", "Horror", "Action"]
+    },
+    {
+      "name": "Creative Hobbies",
+      "keywords": ["3D Printing", "Home Automation"]
+    }
+  ]
+}
