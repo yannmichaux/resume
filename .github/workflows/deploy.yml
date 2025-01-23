@@ -18,9 +18,9 @@ jobs:
           node-version: "lts/*"
       - name: Install resume-cli and custom theme
         run: |
-          npm install -g resume-cli jsonresume-theme-ludoo
+          npm install -g resumed jsonresume-theme-ludoo
       - name: Generate HTML resume
-        run: resume render --theme jsonresume-theme-ludoo -o public/index.html
+        run: resumed render --theme jsonresume-theme-ludoo -o public/index.html
       - name: Remove col-sm-offset-1 class
         run: |
           sed -i 's/class="col-sm-offset-1/class="/g' public/index.html
