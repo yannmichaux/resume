@@ -24,10 +24,28 @@
   },
   "work": [
     {
+      "name": "Aleria Technology",
+      "position": "Technical Project Manager",
+      "startDate": "2025-03",
+      "summary": "Overseeing the end-to-end development and deployment of a comprehensive computer vision analysis system for secure and smart environments. Responsible for strategic planning, architecture design, team coordination, and direct client engagement. Driving innovation by integrating AI-powered video analytics with scalable cloud infrastructure and robust DevOps practices.",
+      "highlights": [
+        "Technical leadership across the entire software lifecycle",
+        "Architecture design for scalable video analytics pipelines",
+        "Cross-functional team management and mentoring",
+        "Client-facing responsibilities and solution tailoring",
+        "Node.js, Vue.js, NestJS, PostgreSQL, Docker, GitLab CI/CD",
+        "Cloud orchestration (GCP & private cloud)",
+        "Linux system administration and security"
+      ],
+      "location": "Abu Dhabi, United Arab Emirates",
+      "url": "https://www.aleria.ae"
+    },
+    {
       "name": "Two-i",
       "company": "Two-i",
       "position": "Lead Fullstack Software Developer",
       "startDate": "2019-09",
+      "endDate": "2025-02",
       "summary": "Development of video analysis solutions based on artificial intelligence for secure environments, client support, and technical team management.",
       "highlights": [
         "Node.JS",
@@ -75,6 +93,24 @@
       ],
       "location": "France",
       "url": "https://www.meria.com"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Open Source",
+      "position": "Creator & Maintainer",
+      "startDate": "2025-03",
+      "summary": "Created a custom Docker image for Aptly, the Debian package repository management tool. The project supports automatic updates, multi-component publishing, webhook and email notifications, and integration with CI/CD pipelines.",
+      "url": "https://github.com/yannmichaux/aptly-docker",
+      "highlights": [
+        "Docker",
+        "Debian Repository Management",
+        "CI/CD Automation",
+        "Shell Scripting",
+        "GPG Signing",
+        "Custom EntryPoint & CRON Jobs",
+        "NGINX Integration"
+      ]
     }
   ],
   "education": [
