@@ -1,0 +1,319 @@
+{
+  "$schema": "./schema.i18n.json",
+  "basics": {
+    "name": "Yann Michaux",
+    "en_label": "Software Engineer & Project Manager",
+    "fr_label": "Ingénieur logiciel & Chef de projet",
+    "image": "https://libravatar.org/avatar/d0d8c34d7ff5887de541d0a6ffc54b45?d=retro&s=128",
+    "email": "contact@yannmcx.dev",
+    "phone": "",
+    "url": "",
+    "en_summary": "Experienced Fullstack Software Developer specializing in web and mobile development, Linux administration, CI/CD automation, and technical project management. Skilled at delivering secure and high-performing solutions with a strong focus on user experience.",
+    "fr_summary": "Développeur logiciel fullstack expérimenté, spécialisé dans le développement web et mobile, l'administration Linux, l'automatisation CI/CD et la gestion de projets techniques. Expert dans la livraison de solutions sécurisées et performantes avec un fort accent sur l'expérience utilisateur.",
+    "location": {
+      "countryCode": "AE",
+      "address": "Abu Dhabi"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "yann-michaux",
+        "url": "https://www.linkedin.com/in/yann-michaux/"
+      },
+      {
+        "network": "GitHub",
+        "username": "yannmichaux",
+        "url": "https://github.com/yannmichaux"
+      },
+      {
+        "network": "PDF",
+        "en_username": "PDF Download",
+        "fr_username": "CV au format PDF",
+        "en_url": "pdf/resume-en.pdf",
+        "fr_url": "pdf/resume-fr.pdf"
+      },
+      {
+        "network": "europass",
+        "en_username": "Europass PDF",
+        "fr_username": "CV au format Europass",
+        "en_url": "pdf/resume-en-europass.pdf",
+        "fr_url": "pdf/resume-fr-europass.pdf"
+      },
+      {
+        "network": "translation::fr",
+        "username": "CV en français",
+        "url": "index-fr.html"
+      },
+      {
+        "network": "translation::us",
+        "username": "English version",
+        "url": "index-en.html"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Aleria Technologies",
+      "en_position": "Technical Project Manager",
+      "fr_position": "Chef de projet technique",
+      "startDate": "2025-04-01",
+      "en_summary": "Overseeing the end-to-end development and deployment of a comprehensive computer vision analysis system for secure and smart environments. Responsible for strategic planning, architecture design, team coordination, and direct client engagement. Driving innovation by integrating AI-powered video analytics with scalable cloud infrastructure and robust DevOps practices.",
+      "fr_summary": "Supervision du développement et du déploiement de bout en bout d'un système d'analyse par vision par ordinateur pour des environnements sécurisés et intelligents. Responsable de la planification stratégique, de la conception d'architecture, de la coordination des équipes et de l'engagement client direct. Promotion de l'innovation en intégrant l'analyse vidéo basée sur l'IA avec une infrastructure cloud évolutive et des pratiques DevOps robustes.",
+      "highlights": [
+        "Node.js",
+        "Vue.js",
+        "NestJS",
+        "PostgreSQL",
+        "Docker",
+        "GitLab CI/CD",
+        "Google Cloud Platform",
+        "Linux system administration",
+        "Technical leadership",
+        "Architecture design",
+        "Team management",
+        "Client engagement"
+      ],
+      "location": "Abu Dhabi, United Arab Emirates",
+      "url": "https://aleria.com",
+      "logoUrl": "https://www.google.com/s2/favicons?domain=aleria.com&sz=64"
+    },
+    {
+      "name": "Two-i",
+      "en_position": "Lead Fullstack Software Developer",
+      "fr_position": "Développeur logiciel fullstack principal",
+      "startDate": "2019-09-01",
+      "endDate": "2025-02-01",
+      "en_summary": "Development of video analysis solutions based on artificial intelligence for secure environments, client support, and technical team management.",
+      "fr_summary": "Développement de solutions d'analyse vidéo basées sur l'intelligence artificielle pour les environnements sécurisés, support client et gestion d'équipe technique.",
+      "highlights": [
+        "Node.js",
+        "Vue.js",
+        "PostgreSQL",
+        "NestJS",
+        "Ionic",
+        "Ubuntu Server",
+        "Cloud",
+        "Docker",
+        "GitLab CI",
+        "GitHub Actions",
+        "Ansible",
+        "VMWare",
+        "Proxmox",
+        "Google Cloud Platform"
+      ],
+      "location": "France",
+      "url": "https://www.linkedin.com/company/two-i",
+      "logoUrl": "https://www.google.com/s2/favicons?domain=two-i.com&sz=64"
+    },
+    {
+      "name": "Arendt Services – GROUPE ARENDT",
+      "en_position": "Intern Developer",
+      "fr_position": "Développeur stagiaire",
+      "startDate": "2019-07-01",
+      "endDate": "2019-09-01",
+      "en_summary": "Design and development of an internal tool for IT report generation, integrated with LDAP for user management.",
+      "fr_summary": "Conception et développement d'un outil interne de génération de rapports IT, intégré avec LDAP pour la gestion des utilisateurs.",
+      "highlights": ["Angular", "PHP", "LDAP", "MariaDB", "Trello"],
+      "location": "Luxembourg",
+      "url": "https://www.linkedin.com/company/arendt-medernach",
+      "logoUrl": "https://www.google.com/s2/favicons?domain=arendt.com&sz=64"
+    },
+    {
+      "name": "Just-Mining (now Meria)",
+      "en_position": "Fullstack Software Developer",
+      "fr_position": "Développeur logiciel fullstack",
+      "startDate": "2018-07-01",
+      "endDate": "2018-08-01",
+      "en_summary": "Redesign of the client portal to improve user experience and optimize backend performance.",
+      "fr_summary": "Refonte du portail client pour améliorer l'expérience utilisateur et optimiser les performances backend.",
+      "highlights": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "jQuery",
+        "Bootstrap",
+        "PHP",
+        "Laravel"
+      ],
+      "location": "France",
+      "url": "https://www.meria.com",
+      "logoUrl": "https://www.google.com/s2/favicons?domain=meria.com&sz=64"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Open Source",
+      "en_position": "Creator & Maintainer",
+      "fr_position": "Créateur & Mainteneur",
+      "startDate": "2025-03",
+      "en_summary": "Created a custom Docker image for Aptly, the Debian package repository management tool. The project supports automatic updates, multi-component publishing, webhook and email notifications, and integration with CI/CD pipelines.",
+      "fr_summary": "Création d'une image Docker personnalisée pour Aptly, l'outil de gestion de dépôts de paquets Debian. Le projet prend en charge les mises à jour automatiques, la publication multi-composants, les notifications webhook et email, et l'intégration avec les pipelines CI/CD.",
+      "url": "https://github.com/yannmichaux/aptly-docker",
+      "highlights": [
+        "Docker",
+        "Debian Repository Management",
+        "CI/CD Automation",
+        "Shell Scripting",
+        "GPG Signing",
+        "Custom EntryPoint & CRON Jobs",
+        "NGINX Integration"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Institut Français des Affaires",
+      "en_area": "Web & Mobile Development",
+      "fr_area": "Développement Web & Mobile",
+      "en_studyType": "Higher National Diploma (HND)",
+      "fr_studyType": "BTS (Brevet de Technicien Supérieur)",
+      "startDate": "2018",
+      "endDate": "2019",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Development",
+      "level": "Expert",
+      "keywords": [
+        "Web",
+        "Mobile",
+        "Desktop",
+        "JavaScript",
+        "TypeScript",
+        "PHP",
+        "Vue.js",
+        "Angular",
+        "Laravel",
+        "Ionic",
+        "Capacitor"
+      ]
+    },
+    {
+      "name": "System Administration",
+      "level": "Confirmed",
+      "keywords": [
+        "Linux (Debian, Ubuntu Server, CentOS)",
+        "Windows Server",
+        "VMWare",
+        "Proxmox",
+        "Docker",
+        "GitLab CI",
+        "GitHub Actions"
+      ]
+    },
+    {
+      "name": "Networking and Security",
+      "level": "Confirmed",
+      "keywords": [
+        "pfSense",
+        "OPNSense",
+        "OpenVPN",
+        "Wireguard",
+        "LDAP",
+        "Zabbix",
+        "Grafana",
+        "Managed VoIP"
+      ]
+    },
+    {
+      "name": "Databases",
+      "keywords": ["PostgreSQL", "MariaDB", "MongoDB", "MySQL", "SQL Server"]
+    },
+    {
+      "name": "Management Tools",
+      "keywords": ["Notion", "Monday", "Trello", "Ansible"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "French",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+  ],
+  "en_interests": [
+    {
+      "name": "Music",
+      "keywords": ["Electro/Pop", "Variety", "Metal"]
+    },
+    {
+      "name": "Cinema",
+      "keywords": ["Marvel", "Horror", "Action"]
+    },
+    {
+      "name": "Creative Hobbies",
+      "keywords": ["3D Printing", "Home Automation"]
+    }
+  ],
+  "fr_interests": [
+    {
+      "name": "Musique",
+      "keywords": ["Electro/Pop", "Variété", "Metal"]
+    },
+    {
+      "name": "Cinéma",
+      "keywords": ["Marvel", "Horreur", "Action"]
+    },
+    {
+      "name": "Loisirs créatifs",
+      "keywords": ["Impression 3D", "Domotique"]
+    }
+  ],
+  "references": [],
+  "projects": [],
+  "meta": {
+    "version": "v2.1.0",
+    "theme": "moderncv",
+    "en_locale": "en-US",
+    "fr_locale": "fr-FR",
+    "languages": "en,fr",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json",
+    "europass": {
+      "demographics": {
+        "nationalities": [
+          {
+            "code": "FR",
+            "en_label": "French",
+            "fr_label": "Française"
+          }
+        ]
+      },
+      "driving": ["B"],
+      "ict": {
+        "Information": "C",
+        "Communication": "C",
+        "ContentCreation": "B",
+        "Safety": "B",
+        "ProblemSolving": "C"
+      },
+      "en_communication": "Technical presentations, client workshops, team collaboration, and cross-cultural work in multinational environments. Effective communication with stakeholders and end-users.",
+      "fr_communication": "Présentations techniques, ateliers clients, collaboration d'équipe et travail multiculturel dans des environnements multinationaux. Communication efficace avec les parties prenantes et les utilisateurs finaux.",
+      "en_organisational": "Technical project management: strategic planning, architecture design, team coordination, and direct client engagement. Leadership across the software development lifecycle for complex AI-powered video analytics systems.",
+      "fr_organisational": "Gestion de projets techniques : planification stratégique, conception d'architecture, coordination d'équipe et engagement client direct. Leadership sur l'ensemble du cycle de développement logiciel pour des systèmes complexes d'analyse vidéo basés sur l'IA.",
+      "externalDocumentation": [
+        {
+          "href": "https://yannmichaux.github.io/resume-i18n/",
+          "description": "Online CV (HTML/PDF, EN/FR)"
+        },
+        {
+          "href": "https://github.com/yannmichaux/resume-i18n",
+          "description": "JSON Resume source repository"
+        },
+        {
+          "href": "https://github.com/yannmichaux/aptly-docker",
+          "description": "Open Source project: Aptly Docker"
+        }
+      ]
+    }
+  },
+  "workEras": []
+}

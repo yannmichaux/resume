@@ -1,0 +1,7 @@
+.idea
+node_modules
+/samples/
+/public/
+/pdf/
+/resume.en.json
+/resume.fr.json
