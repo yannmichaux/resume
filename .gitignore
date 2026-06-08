@@ -1,7 +1,8 @@
 .idea
 node_modules
 /samples/
-/public/
+/public/*
+!/public/images/
 /pdf/
 /resume.en.json
 /resume.fr.json

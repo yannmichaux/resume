@@ -2,27 +2,27 @@
 /**
  * Resolve employerLogo / clientLogo / logoUrl in resume.i18n.json from company domains.
  */
-import fs from 'fs';
-import path from 'path';
-import { fileURLToPath } from 'url';
+import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
 import {
   domainForCompany,
   domainForEmployer,
-  faviconLogo,
+  logoForDomain,
   normalizeCompanyKey,
   shouldReplaceClientUrl,
   websiteForDomain,
-} from './lib/company-logo.js';
+} from "./lib/company-logo.js";
 
-const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const i18nPath = path.join(root, 'resume.i18n.json');
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+const i18nPath = path.join(root, "resume.i18n.json");
 
 function applyMission(mission) {
-  const clientName = mission.en_client || mission.fr_client || '';
+  const clientName = mission.en_client || mission.fr_client || "";
   const domain = domainForCompany(clientName, mission.clientUrl);
-  if (!domain) return { domain: '', updated: false };
+  if (!domain) return { domain: "", updated: false };
 
-  mission.clientLogo = faviconLogo(domain);
+  mission.clientLogo = logoForDomain(domain);
   let updated = false;
   if (shouldReplaceClientUrl(mission.clientUrl, domain)) {
     mission.clientUrl = websiteForDomain(domain);
@@ -34,7 +34,7 @@ function applyMission(mission) {
 function applyEra(era) {
   const domain = domainForEmployer(era.employer, era.employerWebsite);
   if (domain) {
-    era.employerLogo = faviconLogo(domain);
+    era.employerLogo = logoForDomain(domain);
     if (!era.employerWebsite) {
       era.employerWebsite = websiteForDomain(domain);
     }
@@ -52,14 +52,14 @@ function applyEra(era) {
 function applyWorkEntry(entry) {
   const domain = domainForCompany(entry.name, entry.url);
   if (domain) {
-    entry.logoUrl = faviconLogo(domain);
+    entry.logoUrl = logoForDomain(domain);
     if (!entry.url) entry.url = websiteForDomain(domain);
   }
   return domain;
 }
 
 function main() {
-  const data = JSON.parse(fs.readFileSync(i18nPath, 'utf8'));
+  const data = JSON.parse(fs.readFileSync(i18nPath, "utf8"));
   const stats = { eras: 0, missions: 0, urlFixes: 0, work: 0 };
 
   for (const era of data.workEras || []) {

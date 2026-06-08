@@ -167,7 +167,6 @@
         "location": { "type": "string" },
         "logoUrl": {
           "type": "string",
-          "format": "uri",
           "description": "Small logo image URL for the company (standalone work entries)"
         }
       },

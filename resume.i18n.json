@@ -75,7 +75,7 @@
       ],
       "location": "Abu Dhabi, United Arab Emirates",
       "url": "https://aleria.com",
-      "logoUrl": "https://www.google.com/s2/favicons?domain=aleria.com&sz=64"
+      "logoUrl": "images/aleria.com.svg"
     },
     {
       "name": "Two-i",
@@ -103,7 +103,7 @@
       ],
       "location": "France",
       "url": "https://www.linkedin.com/company/two-i",
-      "logoUrl": "https://www.google.com/s2/favicons?domain=two-i.com&sz=64"
+      "logoUrl": "images/two-i.com.svg"
     },
     {
       "name": "Arendt Services – GROUPE ARENDT",
@@ -113,7 +113,13 @@
       "endDate": "2019-09-01",
       "en_summary": "Design and development of an internal tool for IT report generation, integrated with LDAP for user management.",
       "fr_summary": "Conception et développement d'un outil interne de génération de rapports IT, intégré avec LDAP pour la gestion des utilisateurs.",
-      "highlights": ["Angular", "PHP", "LDAP", "MariaDB", "Trello"],
+      "highlights": [
+        "Angular",
+        "PHP",
+        "LDAP",
+        "MariaDB",
+        "Trello"
+      ],
       "location": "Luxembourg",
       "url": "https://www.linkedin.com/company/arendt-medernach",
       "logoUrl": "https://www.google.com/s2/favicons?domain=arendt.com&sz=64"
@@ -137,7 +143,7 @@
       ],
       "location": "France",
       "url": "https://www.meria.com",
-      "logoUrl": "https://www.google.com/s2/favicons?domain=meria.com&sz=64"
+      "logoUrl": "images/meria.com.svg"
     }
   ],
   "volunteer": [
@@ -163,8 +169,8 @@
   "education": [
     {
       "institution": "Institut Français des Affaires",
-      "en_area": "Web & Mobile Development",
-      "fr_area": "Développement Web & Mobile",
+      "en_area": "Web & Software Development",
+      "fr_area": "Développement Web & Logiciel",
       "en_studyType": "Higher National Diploma (HND)",
       "fr_studyType": "BTS (Brevet de Technicien Supérieur)",
       "startDate": "2018",
@@ -223,11 +229,22 @@
     },
     {
       "name": "Databases",
-      "keywords": ["PostgreSQL", "MariaDB", "MongoDB", "MySQL", "SQL Server"]
+      "keywords": [
+        "PostgreSQL",
+        "MariaDB",
+        "MongoDB",
+        "MySQL",
+        "SQL Server"
+      ]
     },
     {
       "name": "Management Tools",
-      "keywords": ["Notion", "Monday", "Trello", "Ansible"]
+      "keywords": [
+        "Notion",
+        "Monday",
+        "Trello",
+        "Ansible"
+      ]
     }
   ],
   "languages": [
@@ -243,29 +260,51 @@
   "en_interests": [
     {
       "name": "Music",
-      "keywords": ["Electro/Pop", "Variety", "Metal"]
+      "keywords": [
+        "Electro/Pop",
+        "Variety",
+        "Metal"
+      ]
     },
     {
       "name": "Cinema",
-      "keywords": ["Marvel", "Horror", "Action"]
+      "keywords": [
+        "Marvel",
+        "Horror",
+        "Action"
+      ]
     },
     {
       "name": "Creative Hobbies",
-      "keywords": ["3D Printing", "Home Automation"]
+      "keywords": [
+        "3D Printing",
+        "Home Automation"
+      ]
     }
   ],
   "fr_interests": [
     {
       "name": "Musique",
-      "keywords": ["Electro/Pop", "Variété", "Metal"]
+      "keywords": [
+        "Electro/Pop",
+        "Variété",
+        "Metal"
+      ]
     },
     {
       "name": "Cinéma",
-      "keywords": ["Marvel", "Horreur", "Action"]
+      "keywords": [
+        "Marvel",
+        "Horreur",
+        "Action"
+      ]
     },
     {
       "name": "Loisirs créatifs",
-      "keywords": ["Impression 3D", "Domotique"]
+      "keywords": [
+        "Impression 3D",
+        "Domotique"
+      ]
     }
   ],
   "references": [],
@@ -287,7 +326,9 @@
           }
         ]
       },
-      "driving": ["B"],
+      "driving": [
+        "B"
+      ],
       "ict": {
         "Information": "C",
         "Communication": "C",
