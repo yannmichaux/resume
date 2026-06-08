@@ -42,6 +42,7 @@ export const LINKEDIN_SLUG_DOMAINS = {
   sfeir: "sfeir.com",
   "sogeti-luxembourg": "sogeti.com",
   sogeti: "sogeti.com",
+  "two-i": "two-i.com",
 };
 
 /** @type {Record<string, string>} normalized employer → domain */
@@ -93,17 +94,24 @@ export function faviconLogo(domain) {
 }
 
 /**
- * Return the relative path to a local logo image if one exists for the given domain.
+ * Return a data URI for a local logo image if one exists for the given domain.
  * Checks for .svg, .png, .jpg extensions in public/images/.
  * @param {string} domain
- * @returns {string} relative path (e.g. "images/aleria.com.svg") or empty string
+ * @returns {string} data URI or empty string
  */
 export function localLogo(domain) {
   if (!domain) return "";
-  for (const ext of [".svg", ".png", ".jpg"]) {
+  const exts = [
+    { ext: ".svg", mime: "image/svg+xml" },
+    { ext: ".png", mime: "image/png" },
+    { ext: ".jpg", mime: "image/jpeg" },
+  ];
+  for (const { ext, mime } of exts) {
     const filename = `${domain}${ext}`;
-    if (fs.existsSync(path.join(IMAGES_DIR, filename))) {
-      return `images/${filename}`;
+    const filePath = path.join(IMAGES_DIR, filename);
+    if (fs.existsSync(filePath)) {
+      const content = fs.readFileSync(filePath);
+      return `data:${mime};base64,${content.toString("base64")}`;
     }
   }
   return "";
